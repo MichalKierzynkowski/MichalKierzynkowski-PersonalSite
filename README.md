@@ -1,6 +1,6 @@
 # Michał Kierzynkowski — personal site
 
-Responsive portfolio and CV in Polish. Static HTML and CSS, without a build step or JavaScript dependencies.
+Responsive portfolio and CV in Polish (`index.html`) and English (`en.html`). Static HTML and shared CSS, without a build step or JavaScript dependencies. The PL/EN links switch between pages.
 
 ## Local preview
 
@@ -12,4 +12,4 @@ In the repository settings, open **Pages** and select **GitHub Actions** as the 
 
 Expected project URL: https://michalkierzynkowski.github.io/MichalKierzynkowski-PersonalSite/
 
-The deployment uploads only `index.html`, `styles.css`, and `assets/`.
+The deployment uploads only `index.html`, `en.html`, `styles.css`, and `assets/`.

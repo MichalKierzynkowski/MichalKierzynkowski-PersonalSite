@@ -13,14 +13,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="alternate" hreflang="pl" href="index.html">
+  <link rel="alternate" hreflang="en" href="en.html">
 </head>
 <body>
   <a class="skip-link" href="#main">Przejdź do treści</a>
   <header class="site-header">
     <nav class="container navigation" aria-label="Nawigacja główna">
       <a class="logo" href="#main" aria-label="Michał Kierzynkowski — początek strony">mk.</a>
-      <div class="nav-links"><a href="#o-mnie">O mnie</a><a href="#projekty">Projekty</a><a href="#kontakt">Kontakt <span aria-hidden="true">↗</span></a></div>
+      <div class="nav-controls">
+        <div class="nav-links"><a href="#o-mnie">O mnie</a><a href="#projekty">Projekty</a><a href="#kontakt">Kontakt <span aria-hidden="true">↗</span></a></div>
+        <div class="language-switch" role="group" aria-label="Język strony"><a href="index.html" lang="pl" aria-label="Polski" aria-current="page">PL</a><a href="en.html" lang="en" aria-label="English">EN</a></div>
+      </div>
     </nav>
   </header>
   <main id="main">
@@ -47,12 +52,12 @@
           <h2>Doświadczenie</h2>
           <article class="position"><p class="date">07.2022 — obecnie</p><div><h3>.NET Developer <span>· i4B</span></h3><p>Rozwój i utrzymanie API, testy jednostkowe i integracyjne, refaktoryzacja oraz code review. Tworzenie i utrzymanie dokumentacji technicznej.</p></div></article>
           <article class="position"><p class="date">03.2022 — 06.2022</p><div><h3>.NET Developer <span>· Integra Software</span></h3><p>Praktyki. Poznawanie produkcyjnego kodu, rozwój funkcjonalności, poprawki i utrzymanie dokumentacji technicznej.</p></div></article>
-          <div class="education"><p class="eyebrow">Edukacja</p><h3>Politechnika Koszalińska</h3><p>Informatyka · magister, 10.2023 — 04.2025<br>Informatyka · inżynier, 10.2019 — 03.2023</p></div>
+          <section class="education" aria-labelledby="education-title"><h2 id="education-title">Edukacja</h2><h3>Politechnika Koszalińska</h3><ul><li><strong>Magister informatyki</strong><span class="date">10.2023 — 04.2025</span></li><li><strong>Inżynier informatyki</strong><span class="date">10.2019 — 03.2023</span></li></ul></section>
         </div>
         <div class="skills">
           <p class="eyebrow">Mój warsztat</p><h2>Technologie i rozwój</h2>
           <ul class="skill-list" aria-label="Technologie"><li>C#</li><li>ASP.NET</li><li>Web API</li><li>SQL</li><li>EF Core</li><li>Dapper</li><li>React</li><li>JavaScript</li><li>Docker</li><li>AWS</li><li>Terraform</li><li>Git</li><li>WinForms</li></ul>
-          <div class="qualifications"><h3>Certyfikaty i kwalifikacje</h3><ul><li>AWS CLF-C02</li><li>Microsoft AZ-900</li><li>MTA 98-375 HTML5</li><li>Kwalifikacje E.12, E.13, E.14</li></ul></div>
+          <section class="qualifications" aria-labelledby="qualifications-title"><p class="eyebrow">Potwierdzona wiedza</p><h2 id="qualifications-title">Certyfikaty<br>i kwalifikacje</h2><ul><li>AWS CLF-C02</li><li>Microsoft AZ-900</li><li>MTA 98-375 HTML5</li><li>Kwalifikacje E.12, E.13, E.14</li></ul></section>
           <p class="language">Angielski <span>· B2</span></p>
         </div>
       </div>
@@ -75,7 +80,7 @@
     </section>
   </main>
   <footer id="kontakt" class="contact">
-    <div class="container contact-inner"><div><p class="eyebrow">Kontakt</p><h2>Dobry projekt zaczyna się<br><em>od rozmowy.</em></h2><a class="email" href="mailto:michal.kierzynkowski@o2.pl">michal.kierzynkowski@o2.pl <span aria-hidden="true">↗</span></a></div><div class="socials"><a href="https://github.com/MichalKierzynkowski" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> — nowa karta</span></a><a href="https://www.linkedin.com/in/micha%C5%82-kierzynkowski-20bb76222/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> — nowa karta</span></a></div></div>
+    <div class="container contact-inner"><div><p class="eyebrow">Kontakt</p><h2>Dobry projekt zaczyna się<br><em>od rozmowy.</em></h2><a class="email" href="mailto:michal.kierzynkowski@o2.pl">michal.kierzynkowski@o2.pl <span aria-hidden="true">↗</span></a></div></div>
     <div class="container footer-note"><span>Michał Kierzynkowski</span><a href="#main">Wróć na górę ↑</a></div>
   </footer>
 </body>
